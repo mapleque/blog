@@ -1,0 +1,60 @@
+favicon:
+  small: /favicon.ico
+  medium: /favicon.ico
+  apple_touch_icon: /favicon.ico
+  safari_pinned_tab: /favicon.ico
+
+footer:
+  since: 2013
+  icon:
+    name: heart
+    aniamted: true
+    color: "#808080"
+
+  copyright: mapleque.com
+
+menu:
+  home: / || home
+  # about: /about/ || user
+  # tags: /tags/ || tags
+  # categories: /categories/ || th
+  archives: /archives/ || archive
+  # schedule: /schedule/ || calendar
+  # sitemap: /sitemap.xml || sitemap
+  # commonweal: /404/ || heartbeat
+
+scheme: Gemini
+
+social:
+  GitHub: https://github.com/mapleque || github
+  E-Mail: mailto:mapleque@163.com || envelope
+
+avatar:
+  url: icon.jpg
+  rounded: true
+
+cheers: false
+
+tag_icon: true
+tagcloud:
+  enable: true
+
+codeblock:
+  highlight_theme: night eighties
+  copy_button:
+    enable: true
+    style: flat
+
+reading_progress:
+  enable: true
+
+bookmark:
+  enable: true
+
+baidu_analytics: e0fc945f04e1f73b09770bf9d28d0627
+
+local_search:
+  enable: true
+
+mermaid:
+  enable: true

@@ -1,7 +1,9 @@
 ---
-title: hexo的研究
+title: 从Hexo开始
 date: 2019-08-28 12:08:17
-tags:
+description:
+tags: [ Hexo ]
+categories:
 ---
 
 引言
@@ -41,8 +43,8 @@ hexo是一个基于nodejs对markdown文件进行前端编译为静态资源并�
 - https://github.com/mapleque/blog.git 管理源代码
 - https://github.com/mapleque/mapleque.github.io 管理pages
 
-配置_config.yml文件，可以实现命令行发布：
-```yaml
+编辑配置文件，可以实现命令行发布：
+```yaml _config.yml
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
@@ -55,6 +57,10 @@ deploy:
 hexo g -d
 ```
 
+{% note danger %}
+这个命令会执行git push --force，一定要注意执行的后果。
+{% endnote %}
+
 最后还要记得将源代码提交：
 ```bash
 git add .
@@ -62,36 +68,36 @@ git commit -m"feature: add something"
 git push origin master
 ```
 
+私有域名
+----
+
+如果需要使用自己的域名部署，这里需要做两件事：
+1. 让github pages支持私有域名
+    在项目中添加一个CNAME文件：
+    ```bash
+    echo 'blog.mapleque.com' > source/CNAME
+    hexo g -d
+    ```
+    这里只有把CNAME文件直接放在source中，才能保证每次发布都能够保留。
+1. 添加域名CNAME解析：
+    在dns解析中添加CNAME条目：
+    ```
+    CNAME blog.mapleque.com mapleque.github.io
+    ```
+
 基本配置
 ----
 
 通过修改_config.yml文件，可以完成大部分网站基本配置，如：title，description，keywords等。
-```yaml
+
+```yaml _config.yml
 # Site
 title: 枫枝雀自鸣
 subtitle: 技术博客
 description: 谈技术，看积累。这里记录的是笔者的亲身经历和反复总结。
 keywords: 互联网, 研发, 计算机, 工程
 ```
+
+{% note info %}
 注意，上面这些项一定要认真填写，它们是搜索引擎识别你的重要信息源。
-
-此外，如果需要favicon，记得自行创建：
-```
-cp favicon.ico source/
-hexo g
-```
-
-主题
-----
-
-排版
-----
-
-目录
-----
-
-标签
-----
-
-其他
-----
+{% endnote %}
