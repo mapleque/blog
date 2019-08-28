@@ -8,7 +8,7 @@ subtitle: 技术博客
 description: 谈技术，看积累。这里记录的是笔者的亲身经历和反复总结。
 keywords: 互联网, 研发, 计算机, 工程
 author: Mapleque
-language: zh-cn
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: mapleque
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

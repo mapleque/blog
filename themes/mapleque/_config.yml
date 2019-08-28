@@ -19,19 +19,13 @@ widgets:
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive
+- category
+- tagcloud
+- archive
 
 # widget behavior
 archive_type: 'monthly'
-show_count: false
+show_count: true
 
 # Miscellaneous
-google_analytics:
-gauges_analytics:
 favicon: /favicon.ico
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
