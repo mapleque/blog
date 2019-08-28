@@ -1,13 +1,10 @@
 ---
 title: 从Hexo开始
 date: 2019-08-28 12:08:17
-description:
+description: 介绍Hexo的安装、部署和基本配置方法
 tags: [ Hexo ]
-categories:
+categories: [开源软件研究和使用, Hexo]
 ---
-
-引言
-----
 
 此前，一直追求一个支持markdown渲染的纯前端组件来构建技术博客，始终不太理想。
 主要面对的问题有三：

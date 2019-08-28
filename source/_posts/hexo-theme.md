@@ -1,9 +1,9 @@
 ---
 title: Hexo主题
 date: 2019-08-28 15:45:26
-description:
+description: 以NexT主题为例介绍Hexo主题的用法
 tags: [ Hexo, theme, NexT ]
-categories:
+categories: [开源软件研究和使用, Hexo]
 ---
 
 hexo创建项目后，提供了一个默认的主题landscape。
@@ -79,19 +79,17 @@ NexT主题支持多种统计服务，这里以百度统计为例，只需要配�
 baidu_analytics: e0fc945f04e1f73b09770bf9d28d0627
 ```
 
-搜索
+rss
 ----
 
-NexT有支持本地搜索的插件（全文搜索），安装：
+支持rss，安装：
 ```bash
-npm install hexo-generator-search --save
+npm install hexo-generator-feed
 ```
 
-然后修改配置项：
-
+然后使用默认配置项即可：
 ```yaml
-local_search:
-  enable: true
+rss:
 ```
 
 发布
