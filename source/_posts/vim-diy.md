@@ -1,8 +1,8 @@
 ---
 title: 我的vim配置
 description: 基本vim配置，安装NERDTree，vundle等
-tags: [ vim ]
-categories: [ 工具, vim ]
+tags: [ Vim ]
+categories: [ 工具, Vim ]
 date: 2019-08-29 13:03:19
 ---
 

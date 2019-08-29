@@ -1,7 +1,7 @@
 ---
 title: Hexo排版
 description: 介绍Hexo的标签、分类、搜索的使用方法
-tags: [ Hexo, tags, categories, search ]
+tags: [ Hexo ]
 categories: [ 工具, Hexo ]
 date: 2019-08-28 18:47:31
 ---

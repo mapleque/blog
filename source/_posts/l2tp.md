@@ -1,8 +1,8 @@
 ---
 title: 使用openswan搭建l2tp/ipsec服务
 description: 本文主要介绍l2tp/ipsec搭建过程，操作系统为centos7
-tags: [l2tp, GFW]
-categories: [ 工具，network ]
+tags: [ vpn ]
+categories: [ 工具, openswan ]
 date: 2019-08-29 11:10:30
 ---
 

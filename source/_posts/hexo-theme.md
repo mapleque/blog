@@ -1,7 +1,7 @@
 ---
 title: Hexo主题
 description: 以NexT主题为例介绍Hexo主题的用法
-tags: [ Hexo, theme, NexT ]
+tags: [ Hexo, NexT ]
 categories: [ 工具, Hexo ]
 date: 2019-08-28 15:45:26
 ---
