@@ -1,9 +1,9 @@
 ---
 title: gitlab实践方案
-date: 2019-08-28 19:19:11
 description: 本文阐述了一个完整的通过gitlab进行软件开发的实践方案
 tags: [ git, practice ]
-categories: [ gitlab ]
+categories: [ 基础服务, gitlab ]
+date: 2019-08-28 19:19:11
 ---
 
 本文提供一种基于gitlab进行团队项目开发发的解决方案。

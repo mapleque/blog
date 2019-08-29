@@ -1,9 +1,9 @@
 ---
 title: Hexo排版
-date: 2019-08-28 18:47:31
 description: 介绍Hexo的标签、分类、搜索的使用方法
 tags: [ Hexo, tags, categories, search ]
-categories: [开源软件研究和使用, Hexo]
+categories: [ 工具, Hexo ]
+date: 2019-08-28 18:47:31
 ---
 
 Hexo有三种排版工具可供选择：

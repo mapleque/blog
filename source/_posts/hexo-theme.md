@@ -1,9 +1,9 @@
 ---
 title: Hexo主题
-date: 2019-08-28 15:45:26
 description: 以NexT主题为例介绍Hexo主题的用法
 tags: [ Hexo, theme, NexT ]
-categories: [开源软件研究和使用, Hexo]
+categories: [ 工具, Hexo ]
+date: 2019-08-28 15:45:26
 ---
 
 hexo创建项目后，提供了一个默认的主题landscape。
