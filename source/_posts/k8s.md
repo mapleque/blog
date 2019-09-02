@@ -122,6 +122,3 @@ kubernate本身提供了kube-proxy和service用于提供所部署服务的请求
 
 通过收集proxy的健康检查日志，可以实现实时集群监控。
 
-
-
--
