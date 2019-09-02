@@ -57,9 +57,8 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  实践: pratice
-  ELK: elk
-  Elasticsearch: es
+  实践: practice
+  Elastic: elastic
   微信开发者: wx
   微服务: ms
   用户认证: auth
@@ -67,16 +66,12 @@ category_map:
   工具: tool
   Gitlab: gitlab
   Hexo: hexo
-  Kafka: kafka
-  Tidb: tidb
   Vim: vim
   openswan: openswan
   openvpn: openvpn
   程序语言: pl
-  dot: dot
   go: go
   js: js
-  markdown: md
 tag_map:
 
 # Date / Time format

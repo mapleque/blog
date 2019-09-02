@@ -64,6 +64,7 @@ local_search:
 
 mermaid:
   enable: true
+  theme: dark
 
 graphviz:
   enable: true

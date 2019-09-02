@@ -6,3 +6,5 @@
 {% include 'search/index.swig' %}
 {% include 'chat/index.swig' %}
 {% include 'tags/index.swig' %}
+
+{% include 'graphviz.swig' %}
