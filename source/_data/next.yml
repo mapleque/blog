@@ -1,8 +1,8 @@
 favicon:
-  small: /favicon.ico
-  medium: /favicon.ico
-  apple_touch_icon: /favicon.ico
-  safari_pinned_tab: /favicon.ico
+  small: /16.png
+  medium: /32.png
+  apple_touch_icon: /32.png
+  safari_pinned_tab: /32.png
 
 footer:
   since: 2013
@@ -36,7 +36,7 @@ social:
   E-Mail: mailto:mapleque@163.com || envelope
 
 avatar:
-  url: icon.jpg
+  url: 500.png
   rounded: true
 
 cheers: false
