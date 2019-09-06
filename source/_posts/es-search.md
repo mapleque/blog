@@ -1,7 +1,7 @@
 ---
 title: 使用Elasticsearch实现社区内容搜索服务
-tags: [ Elastic ]
-categories: [ 实践, Elastic ]
+tags: [ ELK ]
+categories: [ 工具, ELK ]
 date: 2019-08-29 13:59:33
 description: 讲述基于Elasticsearch实现社区内容搜索的思路和实现全过程
 ---

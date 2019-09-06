@@ -57,13 +57,14 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  从零打造社区搜索推荐服务: 0sc
   实践: practice
-  Elastic: elastic
   微信开发者: wx
   微服务: ms
   用户认证: auth
   通用后台: admin
   工具: tool
+  ELK: elk
   Gitlab: gitlab
   Hexo: hexo
   Vim: vim
