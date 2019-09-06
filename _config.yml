@@ -57,8 +57,9 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
-  从零打造社区搜索推荐服务: 0sc
   实践: practice
+  从零打造社区搜索推荐服务: 0sc
+  开始用go: go
   微信开发者: wx
   微服务: ms
   用户认证: auth
@@ -70,9 +71,7 @@ category_map:
   Vim: vim
   openswan: openswan
   openvpn: openvpn
-  程序语言: pl
-  go: go
-  js: js
+  puppeteer: puppeteer
 tag_map:
 
 # Date / Time format
