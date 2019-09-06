@@ -50,9 +50,7 @@ sync --写入\更新--> es
 
 逻辑上可以划分为触发和写入两个步骤。
 
-{% mermaid graph TB %}
-graph LR
-
+{% mermaid graph LR %}
 入口 --触发--> 新数据
 新数据 --写入--> Elasticsearch
 {% endmermaid %}

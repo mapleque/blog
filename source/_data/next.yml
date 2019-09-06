@@ -69,3 +69,8 @@ mermaid:
 graphviz:
   enable: true
 
+font:
+  enable: true
+  global:
+    family: Helvetica
+
