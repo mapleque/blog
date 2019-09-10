@@ -10,8 +10,17 @@ footer:
     name: heart
     aniamted: true
     color: "#808080"
+  powered:
+    enable: false
+  theme:
+    enable: false
 
   copyright: mapleque.com
+
+sidebar:
+  position: left
+  width: 240
+  display: always
 
 creative_commons:
   license: by-nc-sa
@@ -22,14 +31,11 @@ creative_commons:
 menu:
   home: / || home
   about: /about/ || user
-  tags: /tags/ || tags
   categories: /categories/ || th
+  tags: /tags/ || tags
   archives: /archives/ || archive
-  # schedule: /schedule/ || calendar
-  # sitemap: /sitemap.xml || sitemap
-  # commonweal: /404/ || heartbeat
 
-scheme: Gemini
+scheme: Mist
 
 social:
   GitHub: https://github.com/mapleque || github
@@ -74,3 +80,10 @@ font:
   global:
     family: Helvetica
 
+toc:
+  expand_all: true
+  wrap: true
+
+back2top:
+  sidebar: true
+  scrollpercent: true
