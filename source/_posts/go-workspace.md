@@ -82,20 +82,20 @@ brew upgrade go
 这里笔者给出自己在MacOS上的路径：
 ```
 ~/
-|--- workspace -> Documents/workspace
-|    |--- gopath
-|    |    |--- bin
-|    |    |--- pkg
-|    |    |--- src
-|    |    |    |--- github.com
-|    |    |    |    |--- mapleque
-|    |    |    |    |    |--- gostart
-|    |    |    |--- golang.org
-|    |    |    |    |--- x
-|    |    |    |    |    |--- tour
-|    |--- github.com
-|    |    |--- mapleque
-|    |    |    |--- gostart -> ~/workspace/gopath/src/github.com/mapleque/gostart
+├── workspace -> Documents/workspace
+│   ├── gopath
+│   │   ├── bin
+│   │   ├── pkg
+│   │   ├── src
+│   │   │   ├── github.com
+│   │   │   │   ├── mapleque
+│   │   │   │   │   ├── gostart
+│   │   │   ├── golang.org
+│   │   │   │   ├── x
+│   │   │   │   │   ├── tour
+│   ├── github.com
+│   │   ├── mapleque
+│   │   │   ├── gostart -> ~/workspace/gopath/src/github.com/mapleque/gostart
 ```
 
 设置环境变量：
