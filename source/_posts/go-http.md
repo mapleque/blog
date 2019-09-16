@@ -284,7 +284,7 @@ gostart/http/todolist/
 {% note info %}
 上面的例子中，我们实现了一个朴素的接口日志输出，只为展示如何获取所需的数据。复杂的日志输出方式，可以通过微服务包装实现。
 
-代码参考： 。
+代码参考：https://github.com/mapleque/gostart/blob/master/http/todolist/service.go#L68 。
 {% endnote %}
 
 提供性能监控
