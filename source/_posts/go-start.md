@@ -1,5 +1,5 @@
 ---
-title: 【开始用go】从新开始
+title: 【开始用go】从零开始
 tags:
   - golang
 categories:
