@@ -134,6 +134,8 @@ export GOPROXY=https://goproxy.cn
 - [如何安装vundle并配置vim](/posts/tool/vim/vim-diy/)
 - 如何安装vim -- `brew install vim`
 
+更多关于vim的配置，可以参考[【vim】使用vim作为开发go的IDE](/posts/tool/vim/vim-go/)。
+
 {% note warning %}
 注意：最新版本vim-go由于使用了gopls，所以如果使用的是vim-go的最新版本，在执行`:GoInstallBanaries`命令时，必须开启go module模式，并且在当前文件夹中有go.mod文件。
 {% endnote %}

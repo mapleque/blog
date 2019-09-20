@@ -32,11 +32,13 @@ Note over app,oidc: conf.authorization_endpoint
 Note over oidc: 生成授权码code
 oidc ->>- u: 返回授权码code
 
-u ->>+ oidc: 申请token
+u ->>+ app: 提交授权码code
+app ->>+ oidc: 申请token
 Note over app,oidc: conf.token_endpoint
 
 Note over oidc: 生成jwt-token
-oidc ->>- u: 返回jwt-token
+oidc ->>- app: 返回jwt-token
+app ->>- u: 返回服务token，可以直接使用jwk-token
 u ->>+ app: 带jwt-token请求
 Note over app: 解密jwt-token
 Note over app: 验证权限

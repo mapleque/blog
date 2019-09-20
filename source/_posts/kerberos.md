@@ -37,13 +37,14 @@ client ->> client: CTSKEncAuthenticator = enc(Authenticator, CTSK)
 client ->> kdc: (to TGS) EncTGT, AppID, CTSKEncAuthenticator
 kdc ->> kdc: TGSSecretKey = const
 kdc ->> kdc: TGT = decrypt(EncTGT, TGSSecretKey)
+kdc ->> kdc: valid(TGT.expired)
 kdc ->> kdc: CTSK = TGT.CTSK
 kdc ->> kdc: Authenticator = decrypt(CTSKEncAuthenticator, CTSK)
 kdc ->> kdc: username = Authenticator.username
 kdc ->> kdc: AppSecretKey = findBy(AppID)
-kdc ->> kdc: ST = {username, expired}
 kdc ->> kdc: CSSK = rand
-kdc ->> kdc: EncST = enc(CSSK, ST, AppSecretKey)
+kdc ->> kdc: ST = {CSSK, username, expired}
+kdc ->> kdc: EncST = enc(ST, AppSecretKey)
 kdc ->> kdc: EncCSSK = enc(CSSK, CTSK)
 kdc ->> client: EncST, EncCSSK
 client ->> client: CTSK = loadCache()
@@ -53,8 +54,11 @@ client ->> client: Authenticator = loadCache()
 client ->> client: CSSKEncAuthenticator = enc(Authenticator, CSSK)
 client ->> server: EncST, CSSKEncAuthenticator
 server ->> server: AppSecretKey = const
-server ->> server: Authenticator = descrypt(CSSKEncAuthenticator, AppSecretKey)
-server ->> server: valid(Authenticator)
+server ->> server: ST = decrypt(EncST, AppSecretKey)
+server ->> server: valid(ST.expired)
+server ->> server: CSSK = ST.CSSK
+server ->> server: Authenticator = descrypt(CSSKEncAuthenticator, CSSK)
+server ->> server: valid(Authenticator.username == ST.username)
 server ->> server: Token = rand
 server ->> server: EncToken = enc(Token, CSSK)
 server ->> client: EncToken
