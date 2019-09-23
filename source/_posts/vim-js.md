@@ -103,3 +103,30 @@ noremap <Leader>f :EslintFix<CR>
 
 完成后，当需要eslint自动修复错误的时候，在命令模式下输入`,f`即可。
 
+React新组件模板
+====
+
+创建模板文件`~/.vim/templates/react.js`:
+```js
+import React, { Component } from 'react'
+class Index extends Component {
+  constructor (props) {
+    super(props)
+  }
+
+  state = {}
+
+  render() {
+    return (
+      <div>tbd</div>
+    )
+  }
+}
+
+export default Index
+```
+
+编辑`~/.vimrc`文件，增加：
+```
+autocmd BufNewFile *.js 0r ~/.vim/templates/react.js
+```
