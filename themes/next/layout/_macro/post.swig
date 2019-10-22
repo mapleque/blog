@@ -34,6 +34,7 @@
                 <i class="fa fa-thumb-tack"></i>
               </span>
             {%- endif %}
+            <i class="fa fa-hand-o-right"></i>
             {{ next_url(post.path, post.title | default(__('post.untitled')), {class: 'post-title-link', itemprop: 'url' }) }}
           {% else -%}
             {{- post.title -}}

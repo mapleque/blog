@@ -3,6 +3,9 @@
 .posts-expand .home {
   .post-title, .post-meta {
     text-align: $site-meta-text-align;
+    // edit
+    line-height: 1.25;
+    // endedit
 
     +mobile() {
       text-align: center;
@@ -11,7 +14,34 @@
 
   .post-meta {
     margin: 5px 0 20px 0;
+    // edit
+    margin: 0;
+    // endedit
   }
+
+  // edit
+  h1.post-title {
+    font-size: 1.25em;
+  }
+  .post-button {
+    margin: 0;
+    a {
+      border: none;
+      font-size: 0.75em;
+    }
+  }
+
+  .post-body {
+    margin-top: 5px;
+    font-size: 1em;
+    color: #999;
+    line-height: 1.5;
+
+    p {
+      margin: 0;
+    }
+  }
+  // endedit
 }
 
 .posts-expand {
@@ -23,6 +53,10 @@
 
   article {
     margin-top: 120px;
+    // edit
+    margin-top: 20px;
+    border-bottom: #999 dotted 1px;
+    // endedit
 
     &:first-child {
       margin-top: 0;
