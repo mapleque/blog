@@ -6,7 +6,7 @@ categories:
   - 工具
   - Vim
 date: 2019-08-29 13:03:19
-description:
+description: 主要介绍使用vim作为开发go项目的IDE所需的配置
 ---
 
 {% note info %}

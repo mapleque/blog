@@ -6,7 +6,7 @@ categories:
   - 工具
   - Vim
 date: 2019-09-19 17:14:04
-description:
+description: 主要介绍使用vim作为开发js项目的IDE所需的配置
 ---
 
 {% note info %}

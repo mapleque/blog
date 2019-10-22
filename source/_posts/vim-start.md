@@ -6,7 +6,7 @@ categories:
   - 工具
   - Vim
 date: 2019-09-19 17:08:43
-description:
+description: 介绍vim的一些基本配置和常用插件
 ---
 
 基本配置
