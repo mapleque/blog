@@ -59,6 +59,7 @@ default_category: uncategorized
 category_map:
   实践: practice
   从零打造社区搜索推荐服务: 0sc
+  互联网产品的诞生和演化: 0ws
   开始用go: go
   微信开发者: wx
   微服务: ms
