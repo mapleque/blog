@@ -23,6 +23,7 @@ description: 这将是一个系列文章，笔者将会结合自身实践经历�
 
 - [在MacOS上搭建开发环境](/posts/practice/go/go-workspace/)
 - [开发http服务](/posts/practice/go/go-http/)
+- [go语言在http服务开发上的工程实践经验](/posts/practice/go/go-practice-http)
 
 官方网站
 ====
