@@ -14,6 +14,10 @@ footer:
     enable: false
   theme:
     enable: false
+  beian:
+    enable: true
+    icp: 京ICP备16041918号
+
 
   copyright: mapleque.com
 
